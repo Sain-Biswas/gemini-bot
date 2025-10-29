@@ -34,34 +34,6 @@ export const Overview = () => {
         </p>
 
         <p>
-          This project is open source and built with{" "}
-          <Link
-            href="https://nextjs.org/"
-            className="text-blue-500 dark:text-blue-400"
-            target="_blank"
-          >
-            Next.js
-          </Link>
-          ,{" "}
-          <Link
-            href="https://sdk.vercel.ai/docs"
-            className="text-blue-500 dark:text-blue-400"
-            target="_blank"
-          >
-            the Vercel AI SDK
-          </Link>
-          , and{" "}
-          <Link
-            href="https://www.framer.com/motion/"
-            className="text-blue-500 dark:text-blue-400"
-            target="_blank"
-          >
-            Framer Motion
-          </Link>{" "}
-          for a smooth, responsive chat experience.
-        </p>
-
-        <p>
           Karma Sathi empowers workers through knowledge, not confrontation —
           offering guidance, safety, and dignity.
         </p>
