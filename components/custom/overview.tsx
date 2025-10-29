@@ -41,7 +41,7 @@ export const Overview = () => {
         <p className="text-center text-zinc-600 dark:text-zinc-400 mt-2 text-xs">
           Built with ❤️ for India’s workers. Open source on{" "}
           <Link
-            href="https://github.com"
+            href="https://github.com/Sain-Biswas/gemini-bot"
             target="_blank"
             className="text-blue-500 dark:text-blue-400"
           >
