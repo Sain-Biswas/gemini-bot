@@ -3,9 +3,6 @@ import Link from "next/link";
 
 import { auth, signOut } from "@/app/(auth)/auth";
 
-import { History } from "./history";
-import { SlashIcon } from "./icons";
-import { ThemeToggle } from "./theme-toggle";
 import { Button } from "../ui/button";
 import {
   DropdownMenu,
@@ -13,6 +10,9 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
+import { History } from "./history";
+import { SlashIcon } from "./icons";
+import { ThemeToggle } from "./theme-toggle";
 
 export const Navbar = async () => {
   let session = await auth();
@@ -33,7 +33,7 @@ export const Navbar = async () => {
               <SlashIcon size={16} />
             </div>
             <div className="text-sm dark:text-zinc-300 truncate w-28 md:w-fit">
-              Next.js Gemini Chatbot
+              Karma Sathi
             </div>
           </div>
         </div>
